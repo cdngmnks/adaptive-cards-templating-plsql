@@ -3,7 +3,7 @@
 example call:
 ```plsql
 adaptivecard_templating_sdk.expand ( p_template_json => '{sampleTag: "Hello ${salutation} ${name}!"', 
-                                            p_data_json => '{name: "Paolo", salutation: "Mr."}');
+                                     p_data_json => '{name: "Paolo", salutation: "Mr."}');
 ```
 
 # References
